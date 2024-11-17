@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 .score {
@@ -78,7 +79,7 @@ body {
 
 .bg-choices {
   margin: 100px;
-  width: 340px;
+  min-width: 340px;
   height: 340px;
   background-image: url("/assets/images/bg-triangle.svg");
   background-repeat: no-repeat;

@@ -69,8 +69,6 @@ const evalGame = (userChoice, pcChoice) => {
     resultTextElement.textContent = "You lose :(";
     pcScoreElement.textContent = pcPoints;
   }
-
-  console.log(userPoints, "...", pcPoints);
 };
 
 const playGame = (e) => {
