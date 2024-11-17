@@ -7,6 +7,61 @@
     <title>Document</title>
   </head>
   <body>
+    <header class="header">
+      <section class="score">
+        <span class="score-title">You</span>
+        <span id="userScore" class="score-text">0</span>
+      </section>
+      <section class="container-title">
+        <span class="title">ROCK</span>
+        <span class="title">PAPER</span>
+        <span class="title">SCISSORS</span>
+      </section>
+      <section class="score">
+        <span class="score-title">PC</span>
+        <span id="pcScore" class="score-text">0</span>
+      </section>
+    </header>
+    <main class="container">
+      <section id="view-choice" class="bg-choices">
+        <div id="rock" class="choice choice_red choice-absolute">
+          <img id="opc-rock" src="/assets/images/icon-rock.svg" alt="rock" />
+        </div>
+        <div id="paper" class="choice choice_blue choice-absolute">
+          <img id="opc-paper" src="/assets/images/icon-paper.svg" alt="paper" />
+        </div>
+        <div id="scissors" class="choice choice_yellow choice-absolute">
+          <img
+            id="scissors"
+            src="/assets/images/icon-scissors.svg"
+            alt="scissors"
+          />
+        </div>
+      </section>
+      <section id="view-result" class="container-result element-disable">
+        <div class="container-choice">
+          <h2>Your Picked</h2>
+          <div id="user-choice-theme" class="choice choice_red">
+            <img
+              id="user-choice"
+              src="/assets/images/icon-rock.svg"
+              alt="rock"
+            />
+          </div>
+        </div>
+        <div>
+          <h2>Result</h2>
+          <h3 id="resultText">Draw</h3>
+          <button id="playAgain">Play again</button>
+        </div>
+        <div class="container-choice">
+          <h2>PC Picked</h2>
+          <div id="pc-choice-theme" class="choice choice_red">
+            <img id="pc-choice" src="/assets/images/icon-rock.svg" alt="rock" />
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="/js/scripts.js"></script>
   </body>
 </html>
